@@ -165,3 +165,43 @@ section {
   top: 1rem;
   left: 24rem;
 }
+
+.banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  flex-wrap: wrap-reverse;
+}
+
+.banner .content {
+  flex: 1 1 41rem;
+}
+
+.banner .content span {
+  font-size: 2.5rem;
+  color: var(--red);
+}
+
+.banner .content h3 {
+  font-size: 4rem;
+  color: var(--lightBlack);
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+
+.banner .content p {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  color: var(--lightBlack);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.banner .image {
+  flex: 1 1 41rem;
+}
+
+.banner .image img {
+  width: 100%;
+}
