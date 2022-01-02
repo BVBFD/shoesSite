@@ -341,3 +341,27 @@ section {
   line-height: 2;
   padding: 1rem 0;
 }
+
+.reviews .slide {
+  text-align: center;
+  padding: 2rem;
+}
+
+.reviews .slide i {
+  font-size: 4rem;
+  color: var(--lightBlack);
+  margin-bottom: 1rem;
+}
+
+.reviews .slide p {
+  font-size: 1.5rem;
+  color: var(--lightBlack);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.reviews .slide h3 {
+  font-size: 1.7rem;
+  color: var(--lightBlack);
+  text-transform: capitalize;
+}
