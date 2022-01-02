@@ -365,3 +365,81 @@ section {
   color: var(--lightBlack);
   text-transform: capitalize;
 }
+
+.contact {
+  padding-bottom: 12rem;
+}
+
+.contact .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.contact .row form {
+  flex: 1 1 41rem;
+}
+
+.contact .row form .box {
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  border-bottom: 0.2rem solid #444;
+  width: 100%;
+}
+
+.contact .row form .box:focus {
+  border-color: var(--red);
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .contact-info {
+  flex: 1 1 41rem;
+}
+
+.contact .row .contact-info h3 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--lightBlack);
+  text-transform: capitalize;
+}
+
+.contact .row .contact-info .icons {
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact .row .contact-info .icons i {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  background: var(--red);
+  color: var(--white);
+  text-align: center;
+}
+
+.contact .row .contact-info .icons p {
+  font-size: 1.5rem;
+  color: var(--lightBlack);
+  line-height: 2;
+  padding: 0;
+}
+
+.contact .row .contact-info .share a {
+  font-size: 3rem;
+  margin-right: 2rem;
+  color: var(--lightBlack);
+}
+
+.contact .row .contact-info .share a:hover {
+  color: var(--red);
+}
