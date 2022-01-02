@@ -317,3 +317,27 @@ section {
   text-transform: capitalize;
   padding: 1rem 0;
 }
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem 1fr));
+  gap: 2rem;
+}
+
+.service .box {
+  text-align: center;
+  padding: 2rem;
+}
+
+.service .box i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: var(--red);
+}
+
+.service .box p {
+  font-size: 2rem;
+  color: var(--lightBlack);
+  line-height: 2;
+  padding: 1rem 0;
+}
